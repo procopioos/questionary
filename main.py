@@ -29,7 +29,7 @@ def displ_menu():
             "display notes": lambda: displ_notes(),
             "add note": lambda: new_note(),
             "edit note": lambda: edit_note(),
-            "delete note": lambda: console.print("You selected action 4"),
+            "delete note": lambda: console.print("you selected action 4"), # TODO: implement note deletion
             "exit": None,
         }
 
