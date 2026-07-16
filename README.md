@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Use the menu to create, view, or edit notes. Notes are saved as `.md` files in the `notes/` directory.
