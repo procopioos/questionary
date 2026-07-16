@@ -8,7 +8,7 @@ console = Console()
 
 def deleteNote():
     console.clear()
-    console.print("[bold red]delete note[/bold red] - delete a note from the repository")
+    console.print("[bold red]questionary[/bold red] - delete a note from the repository")
     selected_note = select_note(console)
     if selected_note is None:
         console.print("[yellow]no note selected, cancelled.[/yellow]")

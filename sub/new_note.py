@@ -13,7 +13,7 @@ console = Console()
 
 def newNote():
     console.clear()
-    console.print("[bold green]new note[/bold green]")
+    console.print("[bold green]questionary[/bold green] - new note")
 
     title = questionary.text("note title:").ask()
     if not title:

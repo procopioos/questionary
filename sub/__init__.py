@@ -15,7 +15,7 @@ def list_notes() -> list[str]:
 
 def select_note(console: Console) -> str | None:
     
-    console.print("[bold green]list of notes[/bold green] - stored in [bold cyan]notes/[/bold cyan]")
+    console.print("[bold green]repo[/bold green] - notes stored in [bold cyan]notes/[/bold cyan]")
 
     note_files = list_notes()
     if not note_files:
