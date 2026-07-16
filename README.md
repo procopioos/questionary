@@ -1,4 +1,4 @@
-# Markdown Notes
+# Questionary
 
 A simple CLI note-taking system built with Python.
 
