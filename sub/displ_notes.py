@@ -12,6 +12,7 @@ console = Console()
 
 
 def displayNotes():
+    console.clear()
     filepath = select_note(console)
     if filepath is None:
         return

@@ -4,6 +4,7 @@ from rich.console import Console
 import sub.displ_notes as displayNotes
 import sub.new_note as NewNote
 import sub.edit_note as editNote
+import sub.delete_notes as deleteNote
 
 console = Console()
 console.clear()
@@ -20,16 +21,20 @@ def edit_note():
     editNote.editNote()
     pass
 
+def delete_note():
+    deleteNote.deleteNote()
+    pass
+
 def displ_menu():
     while True:
         console.clear()
-        console.print("[bold green]markdown notes[/bold green] - simple note taking system")
+        console.print("[bold green]questionary[/bold green] - simple note taking system")
 
         ACTIONS = {
             "display notes": lambda: displ_notes(),
             "add note": lambda: new_note(),
             "edit note": lambda: edit_note(),
-            "delete note": lambda: console.print("you selected action 4"), # TODO: implement note deletion
+            "delete note": lambda: delete_note(), # TODO: implement note deletion
             "exit": None,
         }
 
