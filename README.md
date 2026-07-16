@@ -1,6 +1,6 @@
 # Questionary
 
-A simple CLI note-taking system built with Python.
+A CLI note-taking system built with Python.
 
 ## Features
 
