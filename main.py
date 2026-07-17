@@ -44,7 +44,7 @@ def displ_menu():
         console.print("       ▀ ▀▀▀                                      █   ██   █   ▀            ")
         console.print("                                                          ▀                 ")
 
-        console.print("[bold green]questionary[/bold green] - markdown note taking system [yellow]v0.1.2[/yellow]\n")
+        console.print("[bold green]questionary[/bold green] - markdown note taking system [yellow]v0.1.3[/yellow]\n")
 
         ACTIONS = {
             "display notes": lambda: displ_notes(),
