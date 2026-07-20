@@ -21,7 +21,13 @@ features:
 
 created by [bold cyan]@procopioos[/bold cyan]
 """
-    
+
+    contact_info = """
+    [bold green]contact info[/bold green]
+    • GitHub: [cyan]https://github.com/procopioos[/cyan]
+    • Email: [cyan]procopiosimone9@gmail.com[/cyan]
+    """
+
     about_panel = Panel(
         about_content,
         title="about",
@@ -31,8 +37,25 @@ created by [bold cyan]@procopioos[/bold cyan]
     
     console.print(about_panel)
     
-    questionary.select(
+    choice = questionary.select(
         "select action :",
-        choices=["go back"],
+        choices=["contact info", "go back"],
         instruction="(use arrow keys)",
     ).ask()
+
+    if choice == "contact info":
+        contact_panel = Panel(
+            contact_info,
+            title="contact info",
+            border_style="green",
+            padding=(1, 2)
+        )
+        console.clear()
+        console.print(contact_panel)
+
+        choice = questionary.select(
+            "select action :",
+            choices=["go back"],
+            instruction="(use arrow keys)",
+        ).ask()
+    
