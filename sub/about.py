@@ -7,19 +7,19 @@ def about_section():
     console.clear()
     
     about_content = """
-[bold green]questionary[/bold green] - markdown note taking system
+    [bold green]questionary[/bold green] - markdown note taking system
 
-a simple terminal-based note-taking application built with Python.
+    a simple terminal-based note-taking application built with Python.
 
-version [yellow]0.1.3[/yellow]
+    version [yellow]0.1.3[/yellow]
 
-features:
-• create new markdown notes
-• view rendered markdown in the terminal
-• edit existing notes with live preview
-• single newlines render as line breaks
+    features:
+    • create new markdown notes
+    • view rendered markdown in the terminal
+    • edit existing notes with live preview
+    • single newlines render as line breaks
 
-created by [bold cyan]@procopioos[/bold cyan]
+    created by [bold cyan]@procopioos[/bold cyan]
 """
 
     contact_info = """
